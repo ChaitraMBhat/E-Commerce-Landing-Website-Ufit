@@ -1,0 +1,279 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 10%;
+}
+
+.logo img{
+    max-width: 500px;
+    height: 100px;
+}
+
+.navmenu{
+    display: flex;
+}
+
+.navmenu a{
+    color: white;
+    font-size: 25px;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    font-weight: 600;
+    transition: all .42s ease;
+}
+
+.navmenu a:hover{
+    color: #E6C51F;
+}
+
+.nav-icon{
+    display: flex;
+    align-items: center;
+}
+
+.nav-icon i{
+    margin-right: 20px;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    transition: all .42s ease;
+}
+
+.nav-icon i:hover{
+    transform: scale(1.1);
+    color: #E6C51F ;
+}
+
+#menu-icon{
+    font-size: 35px;
+    color: white;
+    z-index: 10001;
+    cursor: pointer;
+}
+
+#menu-icon:hover{
+    transform: scale(1.1);
+    color: #E6C51F ;
+}
+
+section{
+    padding: 12% 10%;
+    background-color: #E6C51F;
+}
+
+.main-home{
+    width: 100%;
+    height: 100vh;
+    background-image: url(home.png);
+    background-color: #E6C51F;
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+}
+
+.main-text h5{
+    color: black;
+    font-size: 35px;
+    text-transform: capitalize;
+    font-weight: 5oo;
+}
+
+.main-text h1{
+    color: white;
+    font-size: 65px;
+    text-transform: capitalize;
+    line-height: 1.1;
+    font-weight: 600;
+    margin: 6px 0 10px;
+}
+
+.main-text p{
+    color: black;
+    font-size: 25px;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.main-btn{
+    display: inline-block;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    border: 2px solid black;
+    border-radius: 5%;
+    padding: 12px 25px;
+    transition: all .42s ease;
+}
+
+.main-btn:hover{
+    transform: scale(1.0);
+    color: white;
+    background-color: black;
+}
+
+.main-btn i{
+    vertical-align: middle;
+}
+
+.down-arrow{
+    position: absolute;
+    top: 85%;
+    right: 11%;
+}
+
+.down i{
+    font-size: 60px;
+    color: white;
+    padding: 12px 12px;
+}
+
+.down i:hover{
+    color: black;
+    transition: all .42s ease;
+}
+
+.row{
+    position: relative;
+    transition: all .40s;
+}
+
+.row img{
+    max-width: 300px;
+    height:auto;
+    transition: all .40s;
+}
+
+.row img:hover{
+    transform: scale(0.9);
+}
+
+header.sticky{
+    background: #2c2c2c;
+    padding: 20px 10%;
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 20%);
+}
+
+.center-text h2{
+    color: black;
+    font-size: 50px;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.center-text span{
+    color: white;
+}
+
+.products{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(260px,auto));
+    gap: 2rem;
+}
+
+.product-text h5{
+    position: absolute;
+    top: 13px;
+    left: 13px;
+    color: black;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    background-color: #E6C51F;
+    padding: 3px 10px;
+    border-radius: 2px;
+}
+
+.heart-icon{
+    position: absolute;
+    right: 15%;
+    font-size: 20px;
+}
+
+.heart-icon:hover{
+    color: red;
+}
+
+.rating i{
+    color: black;
+    font-size: 20px;
+}
+
+.pricing h4{
+    color: black;
+    font-size: 25px;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.pricing p{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.contact{
+    background-color: #2c2c2c;
+}
+
+.contact-info{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px,auto));
+    gap: 3rm;
+}
+
+.first-info img{
+    width: 200px;
+    height: auto;
+    margin-top: 0;
+}
+
+.contact-info p{
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 0px;
+    cursor: pointer;
+    transition: all .42s;
+}
+
+.social-icon i{
+    color: #E6C51F;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    font-size: 35px;
+    transition: all .42s;
+}
+
+section.contact{
+    padding: 2% 5%;
+}
+
+
+
+
